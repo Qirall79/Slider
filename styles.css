@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+img.curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+img.bg-design {
+  position: absolute;
+  right: 80px;
+  top: 50px;
+}
+.main-cont1,
+.main-cont2 {
+  width: 70%;
+  height: 540px;
+  position: relative;
+  top: 117px;
+  left: 250px;
+}
+.quotes {
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+.tanya {
+  float: right;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+h3 {
+  z-index: 1;
+  font-size: 1.9rem;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: #57566b;
+  width: 710px;
+  position: absolute;
+  line-height: 1.5;
+}
+h4 {
+  position: absolute;
+  top: 450px;
+  font-family: sans-serif;
+}
+h4 span {
+  color: #e7e5f9;
+  font-weight: 200;
+}
+
+.changer {
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 940px;
+  top: 100px;
+}
+.icon-prev {
+  float: left;
+  margin-top: 11px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+.icon-next {
+  float: right;
+  margin-top: 11px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.display {
+  display: none;
+}
